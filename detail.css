@@ -82,6 +82,8 @@ main div p{
 }
 
 
+
+
 /* footer */
 footer{
     background-color: rgb(35, 32, 32);
@@ -124,7 +126,6 @@ footer{
     color: rgb(25, 167, 206);
     transform: matrix3d(30px);
 }
-
 
 
 
