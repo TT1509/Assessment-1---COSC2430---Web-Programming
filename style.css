@@ -34,14 +34,11 @@ nav div{
     align-items: center;
 }
 
-nav div a{
-    padding: 0;
-    margin: 1%;
-}
-
 .navi{
     font-size: 115%;
     color: rgb(246, 241, 241);
+    padding: 0;
+    margin: 1%;
 }
 
 .navi:hover{
@@ -100,6 +97,9 @@ footer{
     margin: 3% 5%;
 }
 
+.location{
+    
+}
 
 .box-detail{
     padding: 0;
@@ -110,14 +110,11 @@ footer{
     align-items: center;
 }
 
-.box-detail a{
-    padding: 0;
-    margin: 1%;
-}
-
 .foot_nav{
     font-size: 115%;
     color: rgb(246, 241, 241);
+    padding: 0;
+    margin: 1%;
 }
 
 .foot_nav:hover{
