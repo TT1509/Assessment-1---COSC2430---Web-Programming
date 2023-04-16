@@ -26,8 +26,8 @@ header nav{
 }
 
 nav div{
-    padding: 0;
-    margin: 1%;
+    padding: 2px;
+    margin: 2%;
     width: 45%;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ nav div{
 }
 
 .navi{
-    font-size: 115%;
+    font-size: 135%;
     color: rgb(246, 241, 241);
     padding: 0;
     margin: 1%;
@@ -50,7 +50,7 @@ nav div{
 /* main */
 main{
     background-color: aliceblue;
-    padding: 3%;
+    padding: 5%;
 }
 
 main div p{
@@ -64,7 +64,11 @@ main div p{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    margin: 4%;
+    margin: 2%;
+}
+
+.book section{
+    margin: 10%;
 }
 
 .book section a img{
@@ -93,12 +97,13 @@ footer{
 
 }
 
-.contact div{
-    margin: 3% 5%;
+.location{
+    display: flex;
+    flex-direction: column;
 }
 
-.location{
-    
+.location div h1{
+    font-size: 180%;
 }
 
 .box-detail{
@@ -111,7 +116,7 @@ footer{
 }
 
 .foot_nav{
-    font-size: 115%;
+    font-size: 140%;
     color: rgb(246, 241, 241);
     padding: 0;
     margin: 1%;

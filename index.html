@@ -1,10 +1,20 @@
+<!-- 
+  RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023A
+  Assessment: Assignment 1
+  Author: Tran Luu Quang Tung
+  ID: 3978481
+  Acknowledgement: Acknowledge the resources that you use here. 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="C:\Users\Tùng\Documents\GitHub\Web_Programming\Web_Programming-Business_Web---W2---COSC2430-\Photos\Kamen_Rider_Chibi.jpg" type="image/png">
+    <link rel="icon" href="photo\book_logo.png">
     <link rel="stylesheet" href="style.css">
     <title>Book Store</title>
 </head>
@@ -18,15 +28,14 @@
 
             <div>
                 <a href="index.html">
-                    <img class="logo" src="C:\Users\Tùng\Documents\GitHub\Web_Programming\Web_Programming-Business_Web---W2---COSC2430-\Photos\Kamen_Rider_Chibi.jpg" alt="Kamen_Rider_Chibi" class="img" 
+                    <img class="logo" src="photo\book_logo.png" alt="book_logo" class="img" 
                     width="60px" height="80px">
                 </a>
                 <a class="navi" href="index.html">Home</a>
-                <a class="navi" href="#c1">Fiction</a>
+                <a class="navi" href="#c1">Romance</a>
                 <a class="navi" href="#c2">Sci-fi</a>
                 <a class="navi" href="#c3">Crime</a>
                 <a class="navi" href="#c4">Fantasy</a>
-                <a class="navi" href="#c5">Romance</a>
             </div>
 
         </nav>
@@ -43,22 +52,22 @@
             <a href="#c1"><p>Fiction</p></a>
             <section class="book">
                 <section>
-                    <a href="">
-                        <img src="" alt="Book1" class="img">
+                    <a href="detail.html">
+                        <img style="width: 100%; height: 100%;" src="photo\c1_book1.jpg" alt="c1_Book1" class="img">
                     </a>
                     <p>Name: book 1</p>
                 </section>
 
                 <section>
                     <a href="">
-                        <img src="" alt="Book2" class="img">
+                        <img style="width: 290%; height: 290%; padding-right: 100%; margin-right: 100%;" src="photo\c1_book2.jpg" alt="c1_Book2" class="img">
                     </a>
-                    <p>Name: book 2</p>
+                    <p style="padding-right: auto; margin-right: auto; width: max-content;">Name: book 2</p>
                 </section>
 
                 <section>
                     <a href="">
-                        <img src="" alt="Book3" class="img">
+                        <img style="width: 100%; height: 100%; padding: auto; margin: auto;" src="photo\c1_book3.jpg" alt="c1_Book3" class="img">
                     </a>
                     <p>Name: book 3</p>
                 </section>
@@ -68,53 +77,25 @@
         <br>
         <!-- Category 2 -->
         <div>
-            <a href="#c2"><p>Sci-fi</p></a>
+            <a href="#c2"><p>Non-fiction</p></a>
             <section class="book">
                 <section>
                     <a href="">
-                        <img src="" alt="Book1" class="img">
+                        <img src="" alt="c2_Book1" class="img">
                     </a>
                     <p>Name: book 1</p>
                 </section>
 
                 <section>
                     <a href="">
-                        <img src="" alt="Book2" class="img">
+                        <img src="" alt="c2_Book2" class="img">
                     </a>
                     <p>Name: book 2</p>
                 </section>
 
                 <section>
                     <a href="">
-                        <img src="" alt="Book3" class="img">
-                    </a>
-                    <p>Name: book 3</p>
-                </section>
-            </section>
-        </div>
-        <br>
-
-        <!-- Category 3 -->
-        <div>
-            <a href="#c3"><p>Crime</p></a>
-            <section class="book">
-                <section>
-                    <a href="">
-                        <img src="" alt="Book1" class="img">
-                    </a>
-                    <p>Name: book 1</p>
-                </section>
-
-                <section>
-                    <a href="">
-                        <img src="" alt="Book2" class="img">
-                    </a>
-                    <p>Name: book 2</p>
-                </section>
-
-                <section>
-                    <a href="">
-                        <img src="" alt="Book3" class="img">
+                        <img src="" alt="c2_Book3" class="img">
                     </a>
                     <p>Name: book 3</p>
                 </section>
@@ -129,12 +110,16 @@
         <nav class="contact" id="contact">
             
             <div class="location">
-                <h1 class="heading"> Location </h1>
-                <br>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.3870103991592!2d106.69219088711425!3d10.729450541237822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
-                1s0x31752fbea5fe3db1%3A0xfae94aca5709003f!2sRMIT%20University%20Vietnam%20-%20Saigon%20South%20campus!5e0!3m2!1sen!2s!4v1678337072898!5m2!1sen!2s" 
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                <div>
+                    <h1> Location </h1>
+                </div>
+                <div>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.3870103991592!2d106.69219088711425!3d10.729450541237822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+                    1s0x31752fbea5fe3db1%3A0xfae94aca5709003f!2sRMIT%20University%20Vietnam%20-%20Saigon%20South%20campus!5e0!3m2!1sen!2s!4v1678337072898!5m2!1sen!2s" 
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+               
             </div>
             <div class="box-detail">
                 <a class="foot_nav" href="#">About Us</a>
