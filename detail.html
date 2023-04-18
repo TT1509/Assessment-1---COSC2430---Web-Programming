@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="C:\Users\Tùng\Documents\GitHub\Web_Programming\Web_Programming-Business_Web---W2---COSC2430-\Photos\Kamen_Rider_Chibi.jpg" type="image/png">
+    <link rel="icon" href="photo\book_logo.png" type="image/png">
     <link rel="stylesheet" href="detail.css">
     <title>Book Store</title>
 </head>
@@ -18,15 +18,14 @@
 
             <div>
                 <a href="index.html">
-                    <img class="logo" src="C:\Users\Tùng\Documents\GitHub\Web_Programming\Web_Programming-Business_Web---W2---COSC2430-\Photos\Kamen_Rider_Chibi.jpg" alt="Kamen_Rider_Chibi" class="img" 
+                    <img class="logo" src="photo\book_logo.png" alt="book_logo" class="img" 
                     width="60px" height="80px">
                 </a>
                 <a class="navi" href="index.html">Home</a>
-                <a class="navi" href="#category.html">Fiction</a>
-                <a class="navi" href="#c2">Sci-fi</a>
-                <a class="navi" href="#c3">Crime</a>
-                <a class="navi" href="#c4">Fantasy</a>
-                <a class="navi" href="#c5">Romance</a>
+                <a class="navi" href="category.html">Romance</a>
+                <a class="navi" href="category.html">Sci-fi</a>
+                <a class="navi" href="category.html">Crime</a>
+                <a class="navi" href="category.html">Fantasy</a>
             </div>
 
         </nav>
@@ -37,93 +36,69 @@
 
     <!-- Main Part -->
     <main>
-        <!-- Category 1 -->
         <div>
-            <a href="#c1"><p>Fiction</p></a>
+
+            <section>
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="category.html">Category</a></li>
+                    <li><a href="#">The Hunger Games</a></li>
+                  </ul>
+            </section>
+        
             <section class="book">
                 <section>
-                    <a href="">
-                        <img src="" alt="Book1" class="img">
-                    </a>
-                    <p>Name: book 1</p>
+                    <div>
+                        <a href="detail.html">
+                            <img style="width: 140%; height: 140%;" src="photo\c1_book1.jpg" alt="c1_Book1" class="img">
+                        </a>
+                    </div>
+                    <div class="book_detail">
+                        <div style="position: relative; left: 45px; font-size: 20px; width: 160%; height: 100%;">
+                            <p>Name: The Hunger Games</p>
+                        </div>
+                        <br>
+                        <div style="position: relative; font-size: 25px; bottom: 30px; right: 30px;">
+                            <h5>10$</h5>
+                        </div>
+                        <br>
+                        <div class="order" style="position: relative; bottom: 60px; right: 30px;">
+                            <a href="#"><p>Order</p></a>
+                        </div>
+                        
+                    </div>    
                 </section>
 
-                <section>
-                    <a href="">
-                        <img src="" alt="Book2" class="img">
-                    </a>
-                    <p>Name: book 2</p>
+
+                <section class="book_cover">
+                    <img class="book_img" src="photo\c1_book1-1.jpg" alt="c1_book1-1">
+                    <img class="book_img" src="photo\c1_book1-2.jpg" alt="c1_book1-2">
+                    <img class="book_img" src="photo\c1_book1-3.jpg" alt="c1_book1-3">
                 </section>
 
-                <section>
-                    <a href="">
-                        <img src="" alt="Book3" class="img">
-                    </a>
-                    <p>Name: book 3</p>
-                </section>
+            </section>
+
+            <section class="description">
+                <p>     
+                    In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. 
+                    The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve 
+                    and eighteen to participate in the annual Hunger Games, a fight to the death on live TV.
+    
+                        Sixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, 
+                    regards it as a death sentence when she steps forward to take her sister's place in the Games. 
+                    But Katniss has been close to dead before—and survival, for her, is second nature. 
+                    Without really meaning to, she becomes a contender. 
+                    But if she is to win, she will have to start making choices that weight survival against humanity and life against love.
+                </p>       
             </section>
         </div>
 
-        <br>
-        <!-- Category 2 -->
-        <div>
-            <a href="#c2"><p>Sci-fi</p></a>
-            <section class="book">
-                <section>
-                    <a href="">
-                        <img src="" alt="Book1" class="img">
-                    </a>
-                    <p>Name: book 1</p>
-                </section>
-
-                <section>
-                    <a href="">
-                        <img src="" alt="Book2" class="img">
-                    </a>
-                    <p>Name: book 2</p>
-                </section>
-
-                <section>
-                    <a href="">
-                        <img src="" alt="Book3" class="img">
-                    </a>
-                    <p>Name: book 3</p>
-                </section>
-            </section>
-        </div>
-        <br>
-
-        <!-- Category 3 -->
-        <div>
-            <a href="#c3"><p>Crime</p></a>
-            <section class="book">
-                <section>
-                    <a href="">
-                        <img src="" alt="Book1" class="img">
-                    </a>
-                    <p>Name: book 1</p>
-                </section>
-
-                <section>
-                    <a href="">
-                        <img src="" alt="Book2" class="img">
-                    </a>
-                    <p>Name: book 2</p>
-                </section>
-
-                <section>
-                    <a href="">
-                        <img src="" alt="Book3" class="img">
-                    </a>
-                    <p>Name: book 3</p>
-                </section>
-            </section>
-        </div>
-        <br>
+        
 
 
     </main>
     <br>
+
     <!-- Footer Part -->
     <footer>
         <nav class="contact" id="contact">

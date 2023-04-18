@@ -26,28 +26,28 @@ header nav{
 }
 
 nav div{
-    padding: 0;
-    margin: 1%;
+    padding: 2px;
+    margin: 2%;
     width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-nav div a{
+.navi{
+    font-size: 145%;
+    color: rgb(246, 241, 241);
     padding: 0;
     margin: 1%;
 }
 
-.navi{
-    font-size: 115%;
-    color: rgb(246, 241, 241);
+.navi:hover{
+    color: rgb(200, 152, 228);
+    transform: matrix3d(30px);
+    font-size: 160%;
+    transition: .2s;
 }
 
-.navi:hover{
-    color: rgb(25, 167, 206);
-    transform: matrix3d(30px);
-}
 
 
 /* main */
@@ -151,10 +151,14 @@ footer{
 
 }
 
-.contact div{
-    margin: 3% 5%;
+.location{
+    display: flex;
+    flex-direction: column;
 }
 
+.location div h1{
+    font-size: 180%;
+}
 
 .box-detail{
     padding: 0;
@@ -165,18 +169,15 @@ footer{
     align-items: center;
 }
 
-.box-detail a{
+.foot_nav{
+    font-size: 140%;
+    color: rgb(246, 241, 241);
     padding: 0;
     margin: 1%;
 }
 
-.foot_nav{
-    font-size: 115%;
-    color: rgb(246, 241, 241);
-}
-
 .foot_nav:hover{
-    color: rgb(25, 167, 206);
+    color: rgb(200, 152, 228);
     transform: matrix3d(30px);
 }
 
