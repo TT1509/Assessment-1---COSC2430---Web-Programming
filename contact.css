@@ -7,9 +7,9 @@ header{
     font-family: 'Roboto', sans-serif;
     margin: 0; padding: 0;
     box-sizing: border-box;
-    outline: none; border: none;
+    outline: none; 
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     transition: .2s linear;
 }
 
@@ -54,31 +54,13 @@ nav div{
 main{
     background-color: aliceblue;
     padding: 3%;
-}
-
-main div p{
-    align-content: center;
-    text-align: center;
-    margin: 3%;
-}
-
-.book {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    margin: 4%;
-}
-
-.book section a img{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+}  
 
-}
-
-.book section p{
-    width: 100%;
+form h2{
+    
 }
 
 /* form */
@@ -90,6 +72,7 @@ main div p{
 
 .inputBox{
     size: 60%;
+    margin: 5px;
 }
 
 .text_field{
@@ -107,16 +90,13 @@ main div p{
   font-size: 17px;
   font-weight: 400;
   line-height: normal;
-  margin: 0;
+  margin: 3px;
   min-height: 30px;
   min-width: 0;
-  outline: none;
   padding: 10px 20px;
   text-align: center;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  touch-action: manipulation;
   width: 70%;
-  will-change: transform;
   position: relative;
   left: 5%;
   
@@ -127,8 +107,8 @@ main div p{
 }
 
 .btn:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(2px);
+  transition: 0.2s;
 }
 
 .btn:active {

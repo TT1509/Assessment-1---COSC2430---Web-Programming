@@ -38,25 +38,61 @@
     <!-- Main Part -->
     <main>
         <form action="">
-            <h3>Contact Us</h3>
-            <div class="inputBox">
-                <span class="fas fa-user"></span>
-                <input type="text" placeholder="name">
-            </div>
-            <div class="inputBox">
-                <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="email">
-            </div>
-            <div class="inputBox">
-                <span class="fas fa-phone"></span>
-                <input type="number" placeholder="number">
-            </div>
+            <h2>Contact Us</h2>
             <br>
-            <div>
-                <textarea class="text_field" name="text_field" id="text_field" placeholder=" Chat with us" cols="30" rows="10"></textarea>
-            </div>
-            <input type="submit" value="contact now" class="btn">
-            
+            <section style="display: flex; flex-direction: row;">
+                <section>
+                    <div class="inputBox" style="background-color:whitesmoke; display:inline-block; padding: 1%; border:rgb(35, 32, 32); border-style: double;">
+                        <legend>Contact Purpose</legend>
+                        <label><input  type="radio" name="contact_purpose" id="sell" value="sell" > I want to sell books</label>
+                        <label><input  type="radio" name="contact_purpose" id="buy" value="buy"> I want to buy books</label>
+                    </div>
+
+                    <br>
+
+                    <div class="inputBox" style="background-color:whitesmoke; display:inline-block; padding: 1%; border:rgb(35, 32, 32); border-style: double;">
+                        <legend>Contact Preference</legend>
+                        <label><input  type="radio" name="contact_preference" id="contact_preference" value="email" > By email</label>
+                        <label><input  type="radio" name="contact_preference" id="contact_preference" value="phone"> By phone</label>
+                    </div>
+
+
+                    <br>
+
+                    <div class="inputBox" style="background-color:whitesmoke; display:inline-block; padding: 1%; border:rgb(35, 32, 32); border-style: double;">
+                        <legend>Receive Weekly Newsletter</legend>
+                        <label><input  type="radio" name="weekly_news" id="weekly_news" value="yes" checked="checked"> Yes</label>
+                        <label><input  type="radio" name="weekly_news" id="weekly_news" value="no"> No</label>
+                    </div>
+                </section>
+
+                <br>
+
+                <section>
+                    <div class="inputBox">
+                        <input value="" name="name" id="name" type="text" placeholder="Name" maxlength="40">
+                    </div>
+
+                    <div class="inputBox">
+                        <input value="" name="email" id="email" type="email" placeholder="Email">
+                    </div>
+
+                    <div class="inputBox">
+                        <input value="" name="phone_num" id="phone_num" type="number" placeholder="Phone Number">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <textarea class="text_field" name="text_field" id="text_field" placeholder=" Chat with us" cols="30" rows="10"></textarea>
+                    </div>
+                </section>
+            </section>
+
+            <section>
+                <input type="submit" value="Submit" class="btn">
+                <input type="submit" value="Reset" class="btn">
+            </section>
         </form>
 
     </main>
