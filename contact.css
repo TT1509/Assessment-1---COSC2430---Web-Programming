@@ -49,7 +49,6 @@ nav div{
 }
 
 
-
 /* main */
 main{
     background-color: aliceblue;
@@ -60,7 +59,9 @@ main{
 }  
 
 form h2{
-    
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 
 /* form */
@@ -70,9 +71,9 @@ form h2{
     align-items: center;
 }
 
+
 .inputBox{
-    size: 60%;
-    margin: 5px;
+    margin: 10px;
 }
 
 .text_field{
@@ -163,7 +164,84 @@ footer{
 
 
 
+/** media queries */
+@media (max-width:991px){
+    
+    html{
+        font-size: 55%;
+    }
 
+    .navi{
+        display: none;
+    }
+
+    header{
+        padding: 1.5rem 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+    
+    .btn{
+        width: 120px;
+        height: 40px;
+    }
+
+    .location div iframe{
+        width: 350px;
+        height: 300px;
+    }
+
+    .box-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px){
+    
+    html{
+        font-size: 50%;
+    }
+
+    .location div iframe{
+        width: 270px;
+        height: 220px;
+    }
+
+    .box-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+}
+
+@media (max-width:450px){
+    
+    html{
+        font-size: 40%;
+    }
+
+    .location div iframe{
+        width: 180px;
+        height: 140px;
+    }
+
+    .box-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
 
 
 

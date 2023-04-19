@@ -16,7 +16,7 @@
         <!-- Navigation bar -->
         <nav>    
 
-            <div>
+            <div class="navbar">
                 <a href="index.html">
                     <img class="logo" src="photo/book_logo.png" alt="book_logo" class="img" 
                     width="60px" height="80px">
@@ -28,6 +28,10 @@
                 <a class="navi" href="#c4">Fantasy</a>
                 <a class="navi" href="#c5">Romance</a>
             </div>
+            
+
+                
+            
 
         </nav>
         <!-- Navigation end -->
@@ -41,10 +45,11 @@
             <h2>Contact Us</h2>
             <br>
             <section style="display: flex; flex-direction: row;">
-                <section>
+                <section style="width: 300px;">
                     <div class="inputBox" style="background-color:whitesmoke; display:inline-block; padding: 1%; border:rgb(35, 32, 32); border-style: double;">
                         <legend>Contact Purpose</legend>
                         <label><input  type="radio" name="contact_purpose" id="sell" value="sell" > I want to sell books</label>
+                        <br>
                         <label><input  type="radio" name="contact_purpose" id="buy" value="buy"> I want to buy books</label>
                     </div>
 
@@ -68,7 +73,7 @@
 
                 <br>
 
-                <section>
+                <section style="margin-left: 15%;">
                     <div class="inputBox">
                         <input value="" name="name" id="name" type="text" placeholder="Name" maxlength="40">
                     </div>
@@ -124,6 +129,8 @@
         </nav>
     </footer>
 
+<!-- Script source -->
+<script src="script.js"></script>
 
 </body>
 </html>
