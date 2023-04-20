@@ -178,6 +178,10 @@ main div{
     transition: 0.01s;
 }
 
+.book_cover{
+    display: flex;
+    flex-direction: column;
+}
 
 .book_img{
     background-color: #d0c4e2;
@@ -263,6 +267,186 @@ footer{
 }
 
 
+/** media queries */
+@media (max-width:960px){
+    
+    html{
+        font-size: 60%;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book_cover{
+        flex-direction: row;
+        position: relative;
+        top: 240px;
+        right: 420px;
+    }
+
+    .book_detail{
+        position: relative;
+        top: 120px;
+    }
+
+    .description{
+        position: relative;
+        top: 1px;
+    }
+
+    
+
+    header{
+        padding: 1.5rem 2rem;
+    }
+
+    
+    .location div iframe{
+        width: 350px;
+        height: 300px;
+    }
+
+    .box-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px){
+    
+    html{
+        font-size: 50%;
+    }
+
+    .img{
+        position: relative;
+        left: 140px;
+    }
+
+    .book_cover{
+        flex-direction: row;
+        position: relative;
+        top: 170px;
+        right: 250px;
+    }
+
+    .book_img{
+        width: 80px;
+        height: 120px;
+    }
+
+    .book_detail{
+        position: relative;
+        top: 180px;
+        left: 140px;
+        display: flex;
+        
+    }
+
+    .book_detail h5{
+        position: relative;
+        left: 50px;
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+        font-size: 150%;
+        position: relative;
+        top: 0px;
+        left: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description{
+        position: relative;
+    }
+
+    .description h3{
+        position: relative;
+        bottom: 15px;
+    }
+
+    .location div iframe{
+        width: 270px;
+        height: 220px;
+    }
+
+    .box-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+}
+
+@media (max-width:450px){
+    
+    html{
+        font-size: 40%;
+    }
+
+
+    .book_cover{
+        flex-direction: row;
+        position: relative;
+        top: 130px;
+        right: 180px;
+    }
+
+    .book_detail{
+        position: relative;
+        top: 130px;
+        left: 140px;
+        display: flex;
+        
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+        font-size: 200%;
+        position: relative;
+        top: 0px;
+        left: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .description h5{
+        position: relative;
+        bottom: 15px;
+    }
+
+    .location div iframe{
+        width: 180px;
+        height: 140px;
+    }
+
+    .box-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
 
 
 

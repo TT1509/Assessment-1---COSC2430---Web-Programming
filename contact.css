@@ -65,12 +65,10 @@ form h2{
 }
 
 /* form */
-.box-detail input{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.info{
+    display: flex; 
+    flex-direction: row;
 }
-
 
 .inputBox{
     margin: 10px;
@@ -103,13 +101,12 @@ form h2{
   
 }
 
-.btn:disabled {
-  pointer-events: none;
-}
+
 
 .btn:hover {
   transform: translateY(2px);
   transition: 0.2s;
+  background-color: rgb(193, 185, 185) ;
 }
 
 .btn:active {
@@ -165,14 +162,28 @@ footer{
 
 
 /** media queries */
-@media (max-width:991px){
+@media (max-width:960px){
     
     html{
-        font-size: 55%;
+        font-size: 60%;
     }
 
-    .navi{
-        display: none;
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     header{
@@ -184,8 +195,8 @@ footer{
     }
     
     .btn{
-        width: 120px;
-        height: 40px;
+        width: 150px;
+        height: 70px;
     }
 
     .location div iframe{
