@@ -160,7 +160,7 @@ footer{
 @media (max-width:960px){
     
     html{
-        font-size: 60%;
+        font-size: 90%;
     }
 
     .navbar{
@@ -170,6 +170,7 @@ footer{
         align-items: center;
     }
 
+    
     .contact{
         display: flex;
         flex-direction: column;
@@ -183,6 +184,9 @@ footer{
         padding: 2rem;
     }
     
+    .book{
+        flex-direction: column;
+    }
 
     .location div iframe{
         width: 350px;
@@ -200,7 +204,7 @@ footer{
 @media (max-width:768px){
     
     html{
-        font-size: 50%;
+        font-size: 85%;
     }
 
     .location div iframe{
@@ -222,7 +226,7 @@ footer{
 @media (max-width:450px){
     
     html{
-        font-size: 40%;
+        font-size: 80%;
     }
 
     .location div iframe{
