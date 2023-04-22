@@ -128,6 +128,7 @@ main div p{
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    list-style-type: none;
 }
 
 .bar{

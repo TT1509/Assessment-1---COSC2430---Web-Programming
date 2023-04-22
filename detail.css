@@ -398,29 +398,30 @@ footer{
 @media (max-width:450px){
     
     html{
-        font-size: 30%;
+        font-size: 35%;
     }
 
 
     .book_cover{
         flex-direction: row;
         position: relative;
-        top: 130px;
-        right: 180px;
+        top: 120px;
+        right: 160px;
     }
 
     .book_detail{
         position: relative;
-        top: 130px;
+        top: 180px;
         left: 140px;
         display: flex;
         
     }
 
+
     .button{
         display: flex;
         flex-direction: column;
-        font-size: 200%;
+        font-size: 250%;
         position: relative;
         top: 0px;
         left: 50px;
@@ -432,6 +433,13 @@ footer{
     .description h5{
         position: relative;
         bottom: 15px;
+    }
+
+    .description{
+        position: relative;
+        top: 45px;
+        padding: 2%;
+        margin: 8%;
     }
 
     .location div iframe{
